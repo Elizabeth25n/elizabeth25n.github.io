@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The G Two Group LLC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Times New Roman", Times, serif;
+        }
+
+        body {
+            color: #ffffff;
+            background-color: #000;
+        }
+
+        section {
+            position: relative;
+            width: 100%;
+            min-height: 100vh;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 80px 10%;
+        }
+
+        section::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.65);
+            z-index: 1;
+        }
+
+        .content {
+            position: relative;
+            z-index: 2;
+            max-width: 1100px;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 56px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 42px;
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            font-size: 26px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.7;
+            margin-bottom: 15px;
+        }
+
+        .buttons {
+            margin-top: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 32px;
+            margin-right: 15px;
+            border: 1px solid #fff;
+            color: #fff;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #fff;
+            color: #000;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 30px;
+        }
+
+        .box {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 25px;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: none;
+            font-size: 16px;
+        }
+
+        form button {
+            padding: 12px 30px;
+            border: none;
+            background: #fff;
+            color: #000;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        footer {
+            background: #000;
+            padding: 30px 10%;
+            text-align: center;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- 1. HERO -->
+<section style="background-image: url('https://plus.unsplash.com/premium_photo-1661963899181-3adc0a644f7b?q=80&w=1162&auto=format&fit=crop');">
+    <div class="content">
+        <h1>The G Two Group LLC</h1>
+        <p>
+            Strategic business management and consulting services designed to help organizations operate
+            more efficiently, scale responsibly, and make confident operational decisions.  
+            We combine structured management expertise with practical technical insight to support sustainable growth.
+        </p>
+        <div class="buttons">
+            <a href="#services" class="btn">Services</a>
+            <a href="#contacts" class="btn">Contacts</a>
+        </div>
+    </div>
+</section>
+
+<!-- 2. ABOUT -->
+<section style="background-image: url('https://plus.unsplash.com/premium_photo-1661963899181-3adc0a644f7b?q=80&w=1162&auto=format&fit=crop');">
+    <div class="content">
+        <h2>Who We Are & How We Think</h2>
+        <p>
+            The G Two Group LLC is a consulting company focused on improving how businesses are managed,
+            supported, and technically structured at an operational level.
+        </p>
+        <p>
+            We work closely with leadership teams to clarify internal processes, strengthen administrative systems,
+            and align operational strategy with real business objectives.
+        </p>
+        <p>
+            Our approach is practical, data-driven, and grounded in real execution rather than theory.
+            We believe that strong management structures and reliable support systems are the foundation of long-term success.
+        </p>
+    </div>
+</section>
+
+<!-- 3. SERVICES -->
+<section id="services" style="background-image: url('https://plus.unsplash.com/premium_photo-1661963899181-3adc0a644f7b?q=80&w=1162&auto=format&fit=crop');">
+    <div class="content">
+        <h2>What We Do Best</h2>
+        <div class="grid-3">
+
+            <div class="box">
+                <h3>Business Management Consulting</h3>
+                <p>
+                    We analyze management structures, decision-making workflows, and internal controls.
+                </p>
+                <p>
+                    Our recommendations help companies improve accountability, operational clarity,
+                    and leadership efficiency across departments.
+                </p>
+            </div>
+
+            <div class="box">
+                <h3>Administrative & Support Services</h3>
+                <p>
+                    We help businesses design and optimize administrative processes that support daily operations.
+                </p>
+                <p>
+                    This includes workflow organization, documentation standards, and operational support alignment.
+                </p>
+            </div>
+
+            <div class="box">
+                <h3>Technical Consulting Services</h3>
+                <p>
+                    We provide technical guidance that supports business systems and operational infrastructure.
+                </p>
+                <p>
+                    Our focus is on practical solutions that improve reliability, scalability, and process integration.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- 4. ADVANTAGES -->
+<section>
+    <div class="content">
+        <h2>Why Clients Choose Us</h2>
+        <div class="grid-3">
+
+            <div class="box">
+                <h3>Structured & Clear Approach</h3>
+                <p>
+                    We bring clarity to complex operational environments through structured analysis
+                    and actionable recommendations.
+                </p>
+            </div>
+
+            <div class="box">
+                <h3>Business-Focused Perspective</h3>
+                <p>
+                    Every solution is evaluated through the lens of business impact, not abstract theory.
+                </p>
+            </div>
+
+            <div class="box">
+                <h3>Reliable Long-Term Partnership</h3>
+                <p>
+                    We aim to become a trusted consulting partner, not just a one-time service provider.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- 5. PROCESS -->
+<section>
+    <div class="content">
+        <h2>Our Working Process</h2>
+        <div class="grid-3">
+
+            <div class="box">
+                <h3>1. Assessment</h3>
+                <p>
+                    We begin by understanding your business structure, challenges, and operational goals.
+                </p>
+            </div>
+
+            <div class="box">
+                <h3>2. Strategy Development</h3>
+                <p>
+                    Based on analysis, we design a clear and realistic action plan tailored to your needs.
+                </p>
+            </div>
+
+            <div class="box">
+                <h3>3. Support & Guidance</h3>
+                <p>
+                    We assist during implementation and provide ongoing consulting support when required.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- 6. CONTACTS -->
+<section id="contacts" style="background-image: url('https://plus.unsplash.com/premium_photo-1661963899181-3adc0a644f7b?q=80&w=1162&auto=format&fit=crop');">
+    <div class="content">
+        <h2>Let’s Start the Conversation</h2>
+        <p>
+            If you are looking for a consulting partner who understands operations, structure, and execution,
+            we would be glad to discuss your needs.
+        </p>
+        <p>
+            Reach out to us via email or leave a message using the contact form below.
+        </p>
+
+        <p>
+            <strong>Email:</strong> team@thegtwogroup.org<br>
+            <strong>Address:</strong> 7427 Cherry Hill Ln, Broadview Heights, OH 44147, USA
+        </p>
+
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea rows="4" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    © 2026 The G Two Group LLC. All Rights Reserved.
+</footer>
+
+</body>
+</html>
